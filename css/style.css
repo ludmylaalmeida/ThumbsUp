@@ -8173,7 +8173,8 @@ textarea.form-control {
     position: relative;
     height: 100%;
     background: #fff;
-    padding: 48px 24px 72px
+    padding: 48px 24px 72px;
+    
 }
 
 .feature-inner::before {
@@ -8184,9 +8185,16 @@ textarea.form-control {
     bottom: 0;
     left: 0;
     box-shadow: 0 24px 48px 0 rgba(17,16,62,0.12);
-    mix-blend-mode: multiply
+    mix-blend-mode: multiply;
 }
 
+.feature-inner:hover{
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  transition: 1s;
+  box-shadow: 0px 10px 50px 0px rgba(84, 110, 122, 0.35);
+  
+}
 
 .feature-icon::before {
     content: '';
@@ -8649,6 +8657,11 @@ textarea.form-control {
     background-repeat: no-repeat;
     background-color: #fff;
     box-shadow: 0 1px 15px 1px rgba(39, 39, 39, 0.1);
-    filter: #000;
 }
 
+
+.about-intro {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  padding-bottom: 3.6rem;
+  height: 50vh;
+}
