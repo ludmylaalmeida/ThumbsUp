@@ -28,18 +28,18 @@
 		}
 	};
 
-	// var parallax = function() {
+	var parallax = function() {
 
-	// 	if ( !isMobile.any() ) {
-	// 		$(window).stellar({
-	// 			horizontalScrolling: false,
-	// 			hideDistantElements: false, 
-	// 			responsive: true
+		if ( !isMobile.any() ) {
+			$(window).stellar({
+				horizontalScrolling: false,
+				hideDistantElements: false, 
+				responsive: true
 
-	// 		});
-	// 	}
-	// };
-	// parallax();
+			});
+		}
+	};
+	parallax();
 
 	$(window).stellar({
     responsive: true,
@@ -133,26 +133,26 @@
 			}
 		});
 
-		// $('.carousel-room').owlCarousel({
-		// 	center: true,
-		// 	loop: true,
-		// 	items:1,
-		// 	margin: 30,
-		// 	stagePadding: 0,
-		// 	nav: true,
-		// 	navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
-		// 	responsive:{
-		// 		0:{
-		// 			items: 1
-		// 		},
-		// 		600:{
-		// 			items: 2
-		// 		},
-		// 		1000:{
-		// 			items: 3
-		// 		}
-		// 	}
-		// });
+		$('.carousel-room').owlCarousel({
+			center: true,
+			loop: true,
+			items:1,
+			margin: 30,
+			stagePadding: 0,
+			nav: true,
+			navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
+			responsive:{
+				0:{
+					items: 1
+				},
+				600:{
+					items: 2
+				},
+				1000:{
+					items: 3
+				}
+			}
+		});
 	};
 	carousel();
 
