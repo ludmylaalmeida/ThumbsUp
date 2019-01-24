@@ -6976,17 +6976,18 @@ h1, h2, h3, h4, h5,
     content: '';
     position: absolute;
     left: 0;
-    bottom: -50px;
+    bottom: -100px;
     overflow: visible;
     width: 100%;
-    height: 120px;
+    height: 200px;
     z-index: 1;
     -webkit-transform: skewY(4deg);
     -moz-transform: skewY(4deg);
     -ms-transform: skewY(4deg);
     -o-transform: skewY(4deg);
     transform: skewY(4deg);
-    background-color: #fff; }
+    background-color: #fff;
+  }
 
 .ftco-section-featured {
   margin-top: -300px;
@@ -7099,7 +7100,7 @@ h1, h2, h3, h4, h5,
     background-repeat: no-repeat;
     background-position: center center;
     position: relative;
-    padding: 15em 0;
+    padding: 12em 0;
     background: #8AFF00; }
     .ftco-section-parallax .parallax-img.parallax-img-2 {
       background: #ee76ad; }
